@@ -637,7 +637,7 @@ class DownloadWorker(context: Context, params: WorkerParameters) :
                 .setContentIntent(intent)
                 .setOnlyAlertOnce(true)
                 .setAutoCancel(true)
-                .setPriority(NotificationCompat.PRIORITY_LOW)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
             when (status) {
                 DownloadStatus.RUNNING -> {
                     if (progress <= 0) {
