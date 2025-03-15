@@ -1,3 +1,7 @@
+## 1.13.0
+
+- Set notifications priority to `NotificationCompat.PRIORITY_HIGH`
+
 ## 1.12.0
 
 - Dependencies update (#990)
